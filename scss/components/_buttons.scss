@@ -1,0 +1,414 @@
+.header-btn {
+  color: #1c3554;
+  background: inherit;
+  font-family: Montserrat;
+  margin-left: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  padding: 8px 32px;
+  border-radius: 8px;
+  border: 1px solid #1c3554;
+  cursor: pointer;
+  transition: 0.5s;
+  &:hover {
+    color: white;
+    background: #f72585;
+    border: 1px solid #f72585;
+  }
+}
+.course-btns {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  margin-bottom: 32px;
+  transition: 0.5s;
+  .cours-btn1 {
+    color: #fff;
+    background: #f72585;
+    font-family: "Montserrat SemiBold";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    display: flex;
+    width: 167px;
+    padding: 8px 32px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    transition: 0.5s;
+    &:hover {
+      background: #fff;
+      color: #aaa;
+    }
+  }
+  .cours-btn2 {
+    display: flex;
+    width: 167px;
+    padding: 8px 32px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #fff;
+    color: #aaa;
+    font-family: Montserrat;
+    font-size: 16px;
+    border: none;
+    font-weight: 400;
+    line-height: 32px;
+    transition: 0.5s;
+    &:hover {
+      color: #fff;
+      background: #f72585;
+    }
+  }
+}
+.curs-title {
+  margin-bottom: 16px;
+  .curs-btn {
+    color: #fff;
+    font-family: "Montserrat SemiBold";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    display: inline-flex;
+    padding: 4px 24px;
+    align-items: flex-start;
+    border: none;
+    position: absolute;
+    bottom: -10px;
+    left: 56px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #4586d6;
+    transition: 0.5s;
+    &:hover {
+      background: #fff;
+      color: #4586d6;
+    }
+  }
+}
+.curs-btn2 {
+  display: flex;
+  width: 288px;
+  padding: 14px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+  font-family: "Montserrat SemiBold";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  border-radius: 8px;
+  border: none;
+  background: #f72585;
+  transition: 0.5s;
+  &:hover {
+    background: #fff;
+    border: solid 1px #f72585;
+    color: #f72585;
+  }
+}
+.become-btn {
+  display: inline-flex;
+  padding: 16px 40px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  background: #f72585;
+  color: #fff;
+  font-family: "Montserrat SemiBold";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  border: none;
+  margin-top: 16px;
+  transition: 0.5s;
+  &:hover {
+    background: #fff;
+    color: #f72585;
+    border: solid 1px #f72585;
+  }
+}
+.programing-btn {
+  display: flex;
+  width: 288px;
+  padding: 14px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #f72585;
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 32px;
+  border: none;
+  transition: 0.5s;
+  &:hover {
+    color: #f72585;
+    background: #fff;
+    border: solid 1px #f72585;
+  }
+}
+.cours-btns {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  .cours-btn {
+    display: inline-flex;
+    padding: 16px 40px;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    background: #fff5f9;
+    color: #f72585;
+    font-family: "Montserrat SemiBold";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+  }
+  .cours-btn2 {
+    display: inline-flex;
+    padding: 16px 40px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #f72585;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Montserrat SemiBold";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    border: none;
+    transition: 0.5s;
+    &:hover {
+      border: solid 1px #f72585;
+      background: #fff;
+      color: #f72585;
+    }
+  }
+}
+.blog-btn {
+  display: inline-flex;
+  padding: 12px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  background: #f72585;
+  color: #fff;
+  font-family: "Montserrat SemiBold";
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+  cursor: pointer;
+  line-height: 32px;
+  transition: 0.5s;
+  &:hover {
+    background: #fff;
+    color: #f72585;
+    border: 1px solid #f72585;
+  }
+}
+.hero-buttons {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  .hero-button {
+    display: inline-flex;
+    padding: 12px 32px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #f72585;
+    color: #fff;
+    font-family: "Montserrat SemiBold";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    border: none;
+    transition: 0.5s;
+    &:hover {
+      background: #fff;
+      color: #f72585;
+      border: 1px solid #f72585;
+    }
+  }
+  .hero-button2 {
+    display: inline-flex;
+    padding: 12px 32px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #fff5f9;
+    color: #f72585;
+    font-family: "Montserrat SemiBold";
+    font-size: 16px;
+    font-weight: 400;
+    transition: 0.5s;
+    line-height: 32px;
+    border: none;
+    &:hover {
+      color: #fff5f9;
+      background: #f72585;
+      border: 1px solid #f72585;
+    }
+  }
+}
+.content-btn {
+  width: 109px;
+  height: 56px;
+  border-radius: 8px;
+  background: #ef233c;
+  border: none;
+  color: #fff;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  cursor: pointer;
+  transition: 0.5s;
+  &:hover {
+    color: #ef233c;
+    background: #fff;
+  }
+}
+.from-btn1 {
+  display: flex;
+  width: 376px;
+  padding: 24px 40px;
+  justify-content: center;
+  margin-bottom: 24px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  background: #f72585;
+  color: #fff;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+  text-transform: capitalize;
+  &:hover {
+    color: #f72585;
+    background: #fff;
+    border: 1px solid #f72585;
+  }
+}
+.from-btn2 {
+  display: flex;
+  width: 376px;
+  padding: 24px 40px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid #f72585;
+  display: flex;
+  width: 376px;
+  background: inherit;
+  padding: 24px 40px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  color: #f72585;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: capitalize;
+  transition: 0.5s;
+  &:hover {
+    background: #f72585;
+    color: #fff;
+  }
+}
+.module-btn {
+  display: flex;
+  width: 728px;
+  margin-top: 40px;
+  border: none;
+  padding: 24px 40px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  background: #f72585;
+  cursor: pointer;
+  color: #fff;
+  font-family: "Montserrat SemiBold";
+  font-size: 16px;
+  font-weight: 400;
+  transition: 0.5s;
+  line-height: 32px;
+  &:hover {
+    background: #fff;
+    color: #f72585;
+    border: 1px solid #f72585;
+  }
+}
+.comment-btn {
+  display: inline-flex;
+  padding: 16px 40px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #f72585;
+  color: #fff;
+  font-family: "Montserrat SemiBold";
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  line-height: 32px;
+  transition: 0.5s;
+  border: none;
+  &:hover {
+    color: #f72585;
+    background: #fff;
+    border: 1px solid #f72585;
+  }
+}
+.comment-btn2 {
+  display: flex;
+  width: 816px;
+  padding: 24px 40px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  background: #f72585;
+  color: #fff;
+  font-family: "Montserrat SemiBold";
+  font-size: 16px;
+  font-weight: 400;
+  transition: 0.5s;
+  line-height: 32px;
+  border: none;
+  cursor: pointer;
+  &:hover {
+    background: #fff;
+    color: #f72585;
+    border: 1px solid #f72585;
+  }
+}

@@ -1,0 +1,211 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(../../fonts/Montserrat-Regular.ttf);
+}
+
+.blog-page {
+  header {
+    scroll-behavior: smooth;
+    font-family: Montserrat;
+    position: fixed;
+    background: #575454;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    padding: 36px 0;
+    font-style: normal;
+    .nav {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      .nav-links {
+        display: flex;
+        gap: 24px;
+        .nav-link {
+          color: white;
+          text-decoration: none;
+          font-size: 16px;
+          font-weight: 700;
+          line-height: 32px;
+          margin-left: 20px;
+        }
+      }
+      .header-btn {
+        color: white;
+        background: inherit;
+        font-family: Montserrat;
+        margin-left: 24px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+        padding: 8px 32px;
+        border-radius: 8px;
+        border: 1px solid white;
+        cursor: pointer;
+        transition: 0.5s;
+        &:hover {
+          color: white;
+          background: #f72585;
+          border: 1px solid #f72585;
+        }
+      }
+    }
+  }
+  .hero {
+    margin-top: 122px;
+    margin-bottom: 96px;
+    background: #575454;
+
+    .hero-style {
+      .hero-title {
+        display: flex;
+        align-items: center;
+        margin-bottom: 64px;
+        gap: 8px;
+        .hero-home {
+          color: #fff;
+          font-family: "Montserrat SemiBold";
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 32px;
+        }
+        .hero-blog {
+          color: #fff;
+          font-family: "Montserrat SemiBold";
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 32px;
+        }
+      }
+      .hero-text {
+        color: #fff;
+        padding-bottom: 120px;
+        font-family: Rubik;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 88px;
+      }
+    }
+  }
+  .blog {
+    margin-bottom: 160px;
+    .blog-style {
+      .blog-content {
+        display: flex;
+        align-items: center;
+        gap: 64px;
+        flex-wrap: wrap;
+        margin-bottom: 56px;
+        img {
+          width: 580px;
+        }
+        .blog-title {
+          .blog-text {
+            max-width: 500px;
+            margin-bottom: 16px;
+            color: #1c3554;
+            font-variant-numeric: lining-nums proportional-nums;
+            font-family: Rubik;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 48px;
+            text-transform: capitalize;
+          }
+          .calendar {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 16px;
+            .blog-cal {
+              color: #808080;
+              font-family: "Montserrat SemiBold";
+              font-size: 14px;
+              font-weight: 400;
+              line-height: 24px;
+            }
+          }
+          .blog-par {
+            max-width: 552px;
+            color: #808080;
+            margin-bottom: 72px;
+            font-family: Montserrat;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 27px;
+          }
+        }
+      }
+      .pagination {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+}
+
+.navbar-shrink {
+  padding: 20px 0;
+}
+
+#navbar-responsive.open {
+  left: 0;
+}
+
+.menu-btn {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  display: none;
+}
+
+.menu-btn span {
+  display: block;
+  width: 30px;
+  height: 4px;
+  background-color: #333;
+}
+
+@media (max-width: 1150px) {
+  #navbar-responsive {
+    position: fixed;
+    top: 120px;
+    bottom: 0;
+    left: -100%;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+    transition: 0.5s;
+  }
+  .menu-btn {
+    display: flex;
+  }
+  header {
+    .nav {
+      justify-content: space-between;
+      gap: 4px;
+      .input-search {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 620px) {
+  .blog-page {
+    .blog {
+      .blog-content {
+        .blog-img {
+          width: 100% !important;
+        }
+      }
+    }
+  }
+}

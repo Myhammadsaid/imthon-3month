@@ -1,0 +1,16 @@
+.input-search {
+  position: relative;
+  input {
+    width: 443px;
+    outline: none;
+    background: inherit;
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: 1px solid#ccc;
+  }
+  img {
+    position: absolute;
+    top: 8px;
+    margin-left: -35px;
+  }
+}

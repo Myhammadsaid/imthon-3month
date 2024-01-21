@@ -1,0 +1,414 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: Rubik;
+  src: url(../../fonts/Rubik-Regular.ttf);
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat SemiBold";
+  src: url(../../fonts/Montserrat-SemiBold.ttf);
+}
+
+.courses-page {
+  .hero {
+    margin-top: 120px;
+    margin-bottom: 160px;
+    .hero-style {
+      .hero-title {
+        display: flex;
+        align-items: center;
+        margin-bottom: 24px;
+        gap: 8px;
+        .hero-home {
+          color: #808080;
+          font-family: "Montserrat SemiBold";
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 32px;
+        }
+        .hero-curses {
+          color: #1c3554;
+          font-family: "Montserrat SemiBold";
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 32px;
+        }
+      }
+      .hero-content {
+        .hero-text {
+          color: #1c3554;
+          font-family: Rubik;
+          font-size: 64px;
+          font-weight: 700;
+          line-height: 88px;
+          margin-bottom: 24px;
+        }
+        .hero-par {
+          max-width: 712px;
+          color: #808080;
+          font-family: Montserrat;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 27px;
+          margin-bottom: 56px;
+        }
+      }
+      .hero-text2 {
+        color: #1c3554;
+        font-variant-numeric: lining-nums proportional-nums;
+        font-family: Rubik;
+        margin-bottom: 32px;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 48px;
+        text-transform: capitalize;
+      }
+      .curs-cards {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 56px;
+        gap: 16px;
+        .curs-card {
+          height: 427px;
+          padding: 16px;
+          max-width: 285px;
+          border-radius: 8px;
+          background: #fff;
+          margin-bottom: 24px;
+          transition: 0.5s;
+          &:hover {
+            filter: drop-shadow(40px 40px 57px rgba(0, 0, 0, 0.1));
+          }
+          .curs-title {
+            position: relative;
+            .box-bg {
+              max-width: 262.891px;
+              height: 208px;
+              flex-shrink: 0;
+              border-radius: 4px;
+              background: #ccc;
+            }
+          }
+          .card-p {
+            max-width: 243px;
+            color: #1c3554;
+            font-variant-numeric: lining-nums proportional-nums;
+            font-family: Rubik;
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 8px;
+            line-height: 24px;
+            text-transform: capitalize;
+          }
+          .card-p2 {
+            max-width: 262px;
+            color: #f72585;
+            font-family: "Montserrat SemiBold";
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 24px;
+            margin-bottom: 12px;
+          }
+          .stars {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            margin-bottom: 16px;
+            .card-p3 {
+              color: #808080;
+              font-family: "Montserrat SemiBold";
+              font-size: 14px;
+              font-weight: 400;
+              line-height: 24px;
+            }
+          }
+          .prices {
+            display: flex;
+            align-items: center;
+            gap: 8.09px;
+            s {
+              color: #ccc;
+              font-family: Montserrat;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 27px;
+            }
+            .price {
+              color: #1c3554;
+              font-family: Rubik;
+              font-size: 24px;
+              font-weight: 500;
+              line-height: 32px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .programing {
+    .programing-style {
+      .programing-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 56px;
+        .programing-text {
+          color: #1c3554;
+          font-variant-numeric: lining-nums proportional-nums;
+          font-family: Rubik;
+          font-size: 48px;
+          font-weight: 700;
+          line-height: 63.984px;
+        }
+      }
+      .programing-cards {
+        margin-bottom: 160px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 16px;
+        .programing-card {
+          width: 286px;
+          height: 350px;
+          flex-shrink: 0;
+          border-radius: 8px;
+          opacity: 0.5;
+          background: #000;
+          .programing-p {
+            color: #fff;
+            margin-top: 278px;
+            text-align: center;
+            font-family: Rubik;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 32px;
+          }
+        }
+      }
+    }
+  }
+  .cours {
+    margin-bottom: 160px;
+    .cours-style {
+      .cours-title {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 56px;
+        .cours-text {
+          color: #1c3554;
+          font-variant-numeric: lining-nums proportional-nums;
+          font-family: Rubik;
+          font-size: 48px;
+          font-weight: 700;
+          line-height: 63.984px;
+        }
+      }
+      .curs-main {
+        display: flex;
+        .curs-aside {
+          transition: 0.5s;
+          .aside-title {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 274px;
+            margin-bottom: 20px;
+            margin-top: 32px;
+            .aside-text {
+              color: #1c3554;
+              font-variant-numeric: lining-nums proportional-nums;
+              font-family: Rubik;
+              font-size: 24px;
+              font-weight: 700;
+              line-height: 32px;
+            }
+          }
+          .tables {
+            .aside-table {
+              display: flex;
+              align-items: center;
+              gap: 8px;
+              margin-bottom: 16px;
+              &:nth-child(5) {
+                margin-bottom: 32px;
+              }
+              input {
+                width: 24px;
+                height: 24px;
+              }
+              .aside-par3 {
+                color: #1c3554;
+                font-family: "Montserrat SemiBold";
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 32px;
+              }
+              .aside-par {
+                color: #1c3554;
+                font-family: "Montserrat SemiBold";
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 24px;
+              }
+              .aside-par2 {
+                color: #808080;
+                font-family: "Montserrat SemiBold";
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 24px;
+              }
+            }
+            .aside-table-title {
+              display: flex;
+              align-items: center;
+              gap: 8px;
+              .aside-show {
+                color: #1c3554;
+                font-family: "Montserrat SemiBold";
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 32px;
+              }
+            }
+          }
+        }
+        .box {
+          width: 1px;
+          height: 1505px !important;
+          margin: 0 16px;
+          background: #ccc;
+        }
+        .curs-cards {
+          display: flex;
+          align-items: center;
+          flex-wrap: wrap;
+          margin-bottom: 56px;
+          gap: 16px;
+          .curs-card {
+            height: 427px;
+            padding: 16px;
+            max-width: 285px;
+            border-radius: 8px;
+            background: #fff;
+            margin-bottom: 24px;
+            transition: 0.5s;
+            &:hover {
+              filter: drop-shadow(40px 40px 57px rgba(0, 0, 0, 0.1));
+            }
+            .curs-title {
+              position: relative;
+              .box-bg {
+                max-width: 262.891px;
+                height: 208px;
+                flex-shrink: 0;
+                border-radius: 4px;
+                background: #ccc;
+              }
+            }
+            .card-p {
+              max-width: 243px;
+              color: #1c3554;
+              font-variant-numeric: lining-nums proportional-nums;
+              font-family: Rubik;
+              font-size: 16px;
+              font-weight: 500;
+              margin-bottom: 8px;
+              line-height: 24px;
+              text-transform: capitalize;
+            }
+            .card-p2 {
+              max-width: 262px;
+              color: #f72585;
+              font-family: "Montserrat SemiBold";
+              font-size: 12px;
+              font-weight: 400;
+              line-height: 24px;
+              margin-bottom: 12px;
+            }
+            .stars {
+              display: flex;
+              gap: 8px;
+              align-items: center;
+              margin-bottom: 16px;
+              .card-p3 {
+                color: #808080;
+                font-family: "Montserrat SemiBold";
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 24px;
+              }
+            }
+            .prices {
+              display: flex;
+              align-items: center;
+              gap: 8.09px;
+              s {
+                color: #ccc;
+                font-family: Montserrat;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 27px;
+              }
+              .price {
+                color: #1c3554;
+                font-family: Rubik;
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 32px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.navbar-shrink {
+  padding: 20px 0;
+}
+
+@media (max-width: 740px) {
+  .courses-page {
+    .programing {
+      .programing-title {
+        flex-wrap: wrap;
+        .programing-text {
+          margin-bottom: 10px;
+        }
+      }
+    }
+    .cours {
+      .cours-text {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .courses-page {
+    .curs-main {
+      flex-wrap: wrap;
+    }
+    .hero {
+      .hero-text {
+        font-size: 35px !important;
+      }
+    }
+  }
+}

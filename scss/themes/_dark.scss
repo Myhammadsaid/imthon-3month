@@ -1,0 +1,66 @@
+.dark {
+  background: black !important;
+}
+.dark * {
+  color: white !important;
+}
+.dark .curs-cards .curs-card {
+  background: black !important;
+}
+.dark .blog-cards .blog-card {
+  background: black !important;
+}
+
+.dark .curs-card {
+  border: 1px solid white;
+}
+.dark .blog-card {
+  border: 1px solid white;
+}
+
+.dark .categore-card {
+  border: 1px solid white;
+}
+.dark header {
+  color: white !important;
+  background: black !important;
+}
+.dark .features-contents {
+  color: white !important;
+  background: black !important;
+  border: 1px solid white;
+}
+.dark button {
+  &:hover {
+    background: inherit;
+  }
+}
+.dark .rement-content {
+  color: white !important;
+  background: black !important;
+  border: 1px solid white;
+}
+.dark .module-table {
+  color: white !important;
+  background: black !important;
+  border: 1px solid white;
+}
+.dark .from-content {
+  color: white !important;
+  background: black !important;
+  border: 1px solid white;
+}
+.dark .cours-btn2 {
+  color: black !important;
+}
+.darck-mode {
+  border: none;
+  background: inherit;
+  cursor: pointer;
+}
+.dark .programing-card {
+  border: 1px solid white;
+}
+.dark .darck-mode {
+  fill: #fff !important;
+}

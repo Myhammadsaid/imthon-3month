@@ -1,0 +1,213 @@
+.account-page {
+  header {
+    scroll-behavior: smooth;
+    font-family: Montserrat;
+    position: fixed;
+    background: #575454;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    padding: 36px 0;
+    font-style: normal;
+    .nav {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      .nav-links {
+        display: flex;
+        gap: 20px;
+        .nav-link {
+          color: white;
+          text-decoration: none;
+          font-size: 16px;
+          font-weight: 700;
+          line-height: 32px;
+          margin-left: 20px;
+        }
+      }
+      .header-btn {
+        color: white;
+        background: inherit;
+        font-family: Montserrat;
+        margin-left: 24px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+        padding: 8px 32px;
+        border-radius: 8px;
+        border: 1px solid white;
+        cursor: pointer;
+        transition: 0.5s;
+        &:hover {
+          color: white;
+          background: #f72585;
+          border: 1px solid #f72585;
+        }
+      }
+    }
+  }
+  .hero {
+    margin-top: 122px;
+    background: #575454;
+
+    width: 100%;
+    height: 440px;
+    margin-bottom: 48px;
+  }
+  .account {
+    .account-style {
+      .account-title {
+        display: flex;
+        margin-bottom: 64px;
+        align-items: center;
+        gap: 24px;
+        .account-names {
+          .account-name {
+            color: #1c3554;
+            font-variant-numeric: lining-nums proportional-nums;
+            font-family: Rubik;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 48px;
+            margin-bottom: 8px;
+            text-transform: capitalize;
+          }
+          .account-develop {
+            color: #808080;
+            font-variant-numeric: lining-nums proportional-nums;
+            font-family: Rubik;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            text-transform: capitalize;
+          }
+        }
+      }
+      .account-tables {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 55px;
+        .account-table1 {
+          text-decoration-color: #f72585;
+          color: #1c3554;
+          font-family: Rubik;
+          font-size: 32px;
+          font-weight: 500;
+          line-height: 48px;
+          transition: 0.5s;
+          &:hover {
+            color: #808080;
+            text-decoration-color: #808080;
+          }
+        }
+        .account-table {
+          color: #808080;
+          text-decoration: none;
+          font-family: Rubik;
+          font-size: 32px;
+          font-weight: 400;
+          line-height: 48px;
+          transition: 0.5s;
+          &:hover {
+            color: #1c3554;
+          }
+        }
+      }
+      .curs-cards {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 56px;
+        gap: 16px;
+        .curs-card {
+          height: 427px;
+          padding: 16px;
+          max-width: 285px;
+          border-radius: 8px;
+          background: #fff;
+          margin-bottom: 24px;
+          transition: 0.5s;
+          &:hover {
+            filter: drop-shadow(40px 40px 57px rgba(0, 0, 0, 0.1));
+          }
+          .curs-title {
+            position: relative;
+            .box-bg {
+              max-width: 262.891px;
+              height: 208px;
+              flex-shrink: 0;
+              border-radius: 4px;
+              background: #ccc;
+            }
+          }
+          .card-p {
+            max-width: 243px;
+            color: #1c3554;
+            font-variant-numeric: lining-nums proportional-nums;
+            font-family: Rubik;
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 8px;
+            line-height: 24px;
+            text-transform: capitalize;
+          }
+          .card-p2 {
+            max-width: 262px;
+            color: #f72585;
+            font-family: "Montserrat SemiBold";
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 24px;
+            margin-bottom: 12px;
+          }
+          .stars {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            margin-bottom: 16px;
+            .card-p3 {
+              color: #808080;
+              font-family: "Montserrat SemiBold";
+              font-size: 14px;
+              font-weight: 400;
+              line-height: 24px;
+            }
+          }
+          .prices {
+            display: flex;
+            align-items: center;
+            gap: 8.09px;
+            s {
+              color: #ccc;
+              font-family: Montserrat;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 27px;
+            }
+            .price {
+              color: #1c3554;
+              font-family: Rubik;
+              font-size: 24px;
+              font-weight: 500;
+              line-height: 32px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.navbar-shrink {
+  padding: 20px 0;
+}
+
+@media (max-width: 620px) {
+  .account-title {
+    flex-wrap: wrap;
+  }
+  .account-tables {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Education | Home</title>
+    <link rel="stylesheet" href="./scss/style.css" />
+  </head>
+  <body class="home-page">
+    <header id="navbar">
+      <div class="container">
+        <nav class="nav">
+          <a href="./index.html" class="logo">
+            <img src="./images/logo.svg" alt="Logo" />
+          </a>
+          <div class="input-search">
+            <input type="text" name="text" placeholder="Search bar" />
+            <img class="header-img" src="./images/search.svg" alt="search" />
+          </div>
+          <div id="navbar-responsive" class="nav-links">
+            <a href="./pages/courses.html" class="nav-link">Courses</a>
+            <a href="./pages/details.html" class="nav-link">Detail Courses</a>
+            <a href="./pages/blog.html" class="nav-link">Blog</a>
+          </div>
+          <a href="./pages/account.html">
+            <button class="header-btn">Login</button>
+          </a>
+          <button class="darck-mode" id="light-dark">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 11.807A9.002 9.002 0 0 1 
+                     10.049 2a9.942 9.942 0 0 0-5.12 2.735c-3.905 3.905-3.905 
+                     10.237 0 14.142 3.906 3.906 10.237 3.905 14.143 0a9.946 
+                     9.946 0 0 0 2.735-5.119A9.003 9.003 0 0 1 12 11.807z"
+              ></path>
+            </svg>
+          </button>
+
+          <div class="nav-items" id="navbar-responsive"></div>
+          <button class="menu-btn" id="menu-btn">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero-style">
+            <div class="hero-content">
+              <h1 class="hero-text">
+                Find the Best Courses and Amazing Mentor
+              </h1>
+              <p class="hero-par">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                aliquam, purus sit amet luctus venenatis, lectus magna fringilla
+                urna, porttitor rhoncus
+              </p>
+              <div class="hero-inputs">
+                <input
+                  type="text"
+                  name="text"
+                  placeholder="Type in the course you want to learn"
+                />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M21.707 20.293L18.025 16.611C19.258 15.071 20 13.122 20 11C20 6.038 15.962 2 11 2C6.038 2 2 6.038 2 11C2 15.962 6.038 20 11 20C13.122 20 15.071 19.258 16.611 18.025L20.293 21.707L21.707 20.293ZM4 11C4 7.14 7.14 4 11 4C14.86 4 18 7.14 18 11C18 14.86 14.86 18 11 18C7.14 18 4 14.86 4 11Z"
+                    fill="#1C3554"
+                  />
+                </svg>
+                <button class="hero-btn">Search</button>
+              </div>
+              <div class="hero-logos">
+                <div class="hero-logo">
+                  <img
+                    class="hero-logo"
+                    src="./images/hero-logo1.svg"
+                    alt="hero-logo"
+                  />
+                  <p class="hero-logo-p">Life Time Acces</p>
+                </div>
+                <div class="hero-logo">
+                  <img
+                    class="hero-logo"
+                    src="./images/hero-logo2.svg"
+                    alt="hero-logo"
+                  />
+                  <p class="hero-logo-p">Expert Mentor</p>
+                </div>
+                <div class="hero-logo">
+                  <img
+                    class="hero-logo"
+                    src="./images/hero-logo3.svg"
+                    alt="hero-logo"
+                  />
+                  <p class="hero-logo-p">100K+ Courses</p>
+                </div>
+              </div>
+            </div>
+            <img class="hero-img" src="./images/hero-img.png" alt="hero-img" />
+          </div>
+        </div>
+      </section>
+      <section class="course">
+        <div class="container">
+          <div class="cours-style">
+            <h1 class="course-text">Trending Courses</h1>
+            <div class="course-btns">
+              <button class="cours-btn1">All</button>
+              <button class="cours-btn2">Business</button>
+              <button class="cours-btn2">Art & Design</button>
+              <button class="cours-btn2">Development</button>
+              <button class="cours-btn2">Marketing</button>
+            </div>
+            <div class="curs-cards">
+              <div class="curs-card">
+                <div class="curs-title">
+                  <div class="box-bg"></div>
+                  <button class="curs-btn">UI/UX Design</button>
+                </div>
+                <p class="card-p">
+                  Interpersonal skills - work better with others!
+                </p>
+                <p class="card-p2">Tanah Air Team</p>
+                <div class="stars">
+                  <img src="./images/star.svg" alt="star" />
+                  <p class="card-p3">(2078)</p>
+                </div>
+                <div class="prices">
+                  <s>$640</s>
+                  <p class="price">$384</p>
+                </div>
+              </div>
+              <div class="curs-card">
+                <div class="curs-title">
+                  <div class="box-bg"></div>
+                  <button class="curs-btn">UI/UX Design</button>
+                </div>
+                <p class="card-p">How to become an Expert Web Developer</p>
+                <p class="card-p2">Tanah Air Team</p>
+                <div class="stars">
+                  <img src="./images/star.svg" alt="star" />
+                  <p class="card-p3">(2078)</p>
+                </div>
+                <div class="prices">
+                  <s>$640</s>
+                  <p class="price">$735</p>
+                </div>
+              </div>
+              <div class="curs-card">
+                <div class="curs-title">
+                  <div class="box-bg"></div>
+                  <button class="curs-btn">UI/UX Design</button>
+                </div>
+                <p class="card-p">User Experience Design Essentials</p>
+                <p class="card-p2">Tanah Air Team</p>
+                <div class="stars">
+                  <img src="./images/star.svg" alt="star" />
+                  <p class="card-p3">(2078)</p>
+                </div>
+                <div class="prices">
+                  <s>$640</s>
+                  <p class="price">$826</p>
+                </div>
+              </div>
+              <div class="curs-card">
+                <div class="curs-title">
+                  <div class="box-bg"></div>
+                  <button class="curs-btn">UI/UX Design</button>
+                </div>
+                <p class="card-p">Creating 3D Modelling in Blender</p>
+                <p class="card-p2">Tanah Air Team</p>
+                <div class="stars">
+                  <img src="./images/star.svg" alt="star" />
+                  <p class="card-p3">(2078)</p>
+                </div>
+                <div class="prices">
+                  <s>$640</s>
+                  <p class="price">$710</p>
+                </div>
+              </div>
+              <div class="curs-card">
+                <div class="curs-title">
+                  <div class="box-bg"></div>
+                  <button class="curs-btn">UI/UX Design</button>
+                </div>
+                <p class="card-p">
+                  Interpersonal skills - work better with others!
+                </p>
+                <p class="card-p2">Tanah Air Team</p>
+                <div class="stars">
+                  <img src="./images/star.svg" alt="star" />
+                  <p class="card-p3">(2078)</p>
+                </div>
+                <div class="prices">
+                  <s>$640</s>
+                  <p class="price">$384</p>
+                </div>
+              </div>
+              <div class="curs-card">
+                <div class="curs-title">
+                  <div class="box-bg"></div>
+                  <button class="curs-btn">UI/UX Design</button>
+                </div>
+                <p class="card-p">How to become an Expert Web Developer</p>
+                <p class="card-p2">Tanah Air Team</p>
+                <div class="stars">
+                  <img src="./images/star.svg" alt="star" />
+                  <p class="card-p3">(2078)</p>
+                </div>
+                <div class="prices">
+                  <s>$640</s>
+                  <p class="price">$758</p>
+                </div>
+              </div>
+              <div class="curs-card">
+                <div class="curs-title">
+                  <div class="box-bg"></div>
+                  <button class="curs-btn">UI/UX Design</button>
+                </div>
+                <p class="card-p">Creating 3D Modelling in Blender</p>
+                <p class="card-p2">Tanah Air Team</p>
+                <div class="stars">
+                  <img src="./images/star.svg" alt="star" />
+                  <p class="card-p3">(2078)</p>
+                </div>
+                <div class="prices">
+                  <s>$640</s>
+                  <p class="price">$973</p>
+                </div>
+              </div>
+              <div class="curs-card">
+                <div class="curs-title">
+                  <div class="box-bg"></div>
+                  <button class="curs-btn">UI/UX Design</button>
+                </div>
+                <p class="card-p">
+                  Interpersonal skills - work better with others!
+                </p>
+                <p class="card-p2">Tanah Air Team</p>
+                <div class="stars">
+                  <img src="./images/star.svg" alt="star" />
+                  <p class="card-p3">(2078)</p>
+                </div>
+                <div class="prices">
+                  <s>$640</s>
+                  <p class="price">$273</p>
+                </div>
+              </div>
+            </div>
+            <button class="curs-btn2">More Courses</button>
+          </div>
+        </div>
+      </section>
+      <section class="categore">
+        <div class="container">
+          <div class="categore-style">
+            <h3 class="categore-text">Top Categories</h3>
+            <div class="categore-cards">
+              <div class="categore-card">
+                <p class="categore-p">Art & Design</p>
+              </div>
+              <div class="categore-card">
+                <p class="categore-p">Business</p>
+              </div>
+              <div class="categore-card">
+                <p class="categore-p">Copy Writing</p>
+              </div>
+              <div class="categore-card">
+                <p class="categore-p">Marketing</p>
+              </div>
+              <div class="categore-card">
+                <p class="categore-p">Programming</p>
+              </div>
+              <div class="categore-card">
+                <p class="categore-p">Photography</p>
+              </div>
+              <div class="categore-card">
+                <p class="categore-p">Videography</p>
+              </div>
+              <div class="categore-card">
+                <p class="categore-p">Persona Development</p>
+              </div>
+            </div>
+            <div class="curs-info">
+              <div class="info-card">
+                <img src="./images/video_library.svg" alt="video_library" />
+                <p class="info-text">10.000+</p>
+                <p class="info-par">Courses</p>
+              </div>
+              <div class="info-card">
+                <img src="./images/people.svg" alt="people" />
+                <p class="info-text">50.000+</p>
+                <p class="info-par">Active.Students</p>
+              </div>
+              <div class="info-card">
+                <img src="./images/User.svg" alt="User" />
+                <p class="info-text">1000+</p>
+                <p class="info-par">Active Mentor</p>
+              </div>
+              <div class="info-card">
+                <img src="./images/flag.svg" alt="flag" />
+                <p class="info-text">180</p>
+                <p class="info-par">Countries</p>
+              </div>
+            </div>
+          </div>
+          <div class="accent">
+            <img src="./images/Accent.png" alt="Accent" />
+          </div>
+        </div>
+      </section>
+      <section class="become">
+        <div class="container">
+          <div class="become-style">
+            <div class="become-bg"></div>
+            <div class="become-content">
+              <p class="become-text">Become an Mentor</p>
+              <p class="become-par">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat
+                eu in orci, nunc amet libero. Nam scelerisque vestibulum
+                bibendum a turpis. Ante feugiat lectus massa, odio amet. Auctor
+                sit mattis non id proin elit placerat. Lectus morbi amet et
+                aliquam magna mauris.
+              </p>
+              <p class="become-par">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat
+                eu in orci, nunc amet libero. Nam scelerisque vestibulum
+                bibendum a turpis. Ante feugiat lectus massa, odio amet. Auctor
+                sit mattis non id proin elit placerat. Lectus morbi amet et
+                aliquam magna mauris.
+              </p>
+              <button class="become-btn">Start Teaching</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="comment">
+        <div class="container">
+          <div class="comment-style">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+            >
+              <path
+                d="M16.707 4.70697L9.41403 12L16.707 19.293L15.293 20.707L6.58603 12L15.293 3.29297L16.707 4.70697Z"
+                fill="#1C3554"
+              />
+            </svg>
+            <img src="./images/img2.png" alt="comment-img" />
+            <div class="comment-content">
+              <p class="comment-text">
+                After studying here I gained new knowledge and insights. The
+                mentor was very friendly and guided me to get the knowledge I
+                wanted. Thank you!
+              </p>
+              <p class="comment-name">KecekArif</p>
+              <p class="comment-par">
+                Yang punya Surabaya nanti kapan - kapan tapi
+              </p>
+            </div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+            >
+              <path
+                d="M7.29297 4.70697L14.586 12L7.29297 19.293L8.70697 20.707L17.414 12L8.70697 3.29297L7.29297 4.70697Z"
+                fill="#1C3554"
+              />
+            </svg>
+          </div>
+        </div>
+      </section>
+      <section class="company">
+        <div class="container">
+          <div class="company-style">
+            <p class="company-text">Trusted by Company</p>
+            <div class="company-cards">
+              <img src="./images/company1.png" alt="company" />
+              <img src="./images/company2.png" alt="company" />
+              <img src="./images/company3.png" alt="company" />
+              <img src="./images/company1.png" alt="company" />
+              <img src="./images/company3.png" alt="company" />
+              <img src="./images/company2.png" alt="company" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="blog">
+        <div class="container">
+          <div class="blog-style">
+            <p class="blog-text">The Latest Blog</p>
+            <div class="blog-cards">
+              <div class="blog-card">
+                <div class="box-blog"></div>
+                <div class="calendars">
+                  <p class="calendar">3, Mei 2021</p>
+                  <p class="calendar">3 min read</p>
+                </div>
+                <p class="blog-p">
+                  10 graphic design trends to get you inspired in 2021
+                </p>
+                <p class="blog-p2">
+                  Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed
+                  do eiusmod.
+                </p>
+                <p class="blog-p3">Read More</p>
+              </div>
+              <div class="blog-card">
+                <div class="box-blog"></div>
+                <div class="calendars">
+                  <p class="calendar">3, Mei 2021</p>
+                  <p class="calendar">3 min read</p>
+                </div>
+                <p class="blog-p">Right Triangle Trigonometry Explained</p>
+                <p class="blog-p2">
+                  Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed
+                  do eiusmod.
+                </p>
+                <p class="blog-p3">Read More</p>
+              </div>
+              <div class="blog-card">
+                <div class="box-blog"></div>
+                <div class="calendars">
+                  <p class="calendar">3, Mei 2021</p>
+                  <p class="calendar">3 min read</p>
+                </div>
+                <p class="blog-p">2 Reasons Why You’re Confusing Chemistry</p>
+                <p class="blog-p2">
+                  Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed
+                  do eiusmod.
+                </p>
+                <p class="blog-p3">Read More</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-style">
+          <div class="footer-content">
+            <img src="./images/footer-logo.svg" alt="logo" />
+            <p class="footer-p1">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
+              tristique placerat eleifend aliquam pellentesque facilisis
+              ultrices. Imperdiet mus urna egestas at tellus.
+            </p>
+          </div>
+          <div class="footer-content">
+            <p class="footer-p">About</p>
+            <p class="footer-p2">About us</p>
+            <p class="footer-p2">Courses</p>
+            <p class="footer-p2">Mentor</p>
+            <p class="footer-p2">Contact Us</p>
+          </div>
+          <div class="footer-content">
+            <p class="footer-p">Support</p>
+            <p class="footer-p2">Careers</p>
+            <p class="footer-p2">Help & Support</p>
+            <p class="footer-p2">Blog</p>
+          </div>
+          <div class="footer-content">
+            <p class="footer-p">Company</p>
+            <p class="footer-p2">Privacy Policy</p>
+            <p class="footer-p2">Terms of Service</p>
+            <p class="footer-p2">Code of Conduct</p>
+          </div>
+        </div>
+        <div class="footer-footer">
+          <div class="footer-contents">
+            <p class="footer-p3">Privacy Policy</p>
+            <p class="footer-p3">Terms and Condition</p>
+          </div>
+          <p class="footer-p4">@2020 TanahAir Studio. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <a id="backtop" href="#"
+      ><svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"
+        ></path>
+      </svg>
+    </a>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

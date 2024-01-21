@@ -1,0 +1,493 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: Rubik;
+  src: url(../../fonts/Rubik-Regular.ttf);
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat SemiBold";
+  src: url(../../fonts/Montserrat-SemiBold.ttf);
+}
+
+.home-page {
+  .course {
+    margin-bottom: 160px;
+    .cours-style {
+      .course-text {
+        text-align: center;
+        margin-bottom: 56px;
+        color: #1c3554;
+        font-variant-numeric: lining-nums proportional-nums;
+        font-family: Rubik;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 63.984px;
+      }
+      .curs-cards {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 56px;
+        gap: 16px;
+        .curs-card {
+          height: 427px;
+          padding: 16px;
+          max-width: 285px;
+          border-radius: 8px;
+          background: #fff;
+          margin-bottom: 24px;
+          transition: 0.5s;
+          &:hover {
+            filter: drop-shadow(40px 40px 57px rgba(0, 0, 0, 0.1));
+          }
+          .curs-title {
+            position: relative;
+            .box-bg {
+              max-width: 262.891px;
+              height: 208px;
+              flex-shrink: 0;
+              border-radius: 4px;
+              background: #ccc;
+            }
+          }
+          .card-p {
+            max-width: 243px;
+            color: #1c3554;
+            font-variant-numeric: lining-nums proportional-nums;
+            font-family: Rubik;
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 8px;
+            line-height: 24px;
+            text-transform: capitalize;
+          }
+          .card-p2 {
+            max-width: 262px;
+            color: #f72585;
+            font-family: "Montserrat SemiBold";
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 24px;
+            margin-bottom: 12px;
+          }
+          .stars {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            margin-bottom: 16px;
+            .card-p3 {
+              color: #808080;
+              font-family: "Montserrat SemiBold";
+              font-size: 14px;
+              font-weight: 400;
+              line-height: 24px;
+            }
+          }
+          .prices {
+            display: flex;
+            align-items: center;
+            gap: 8.09px;
+            s {
+              color: #ccc;
+              font-family: Montserrat;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 27px;
+            }
+            .price {
+              color: #1c3554;
+              font-family: Rubik;
+              font-size: 24px;
+              font-weight: 500;
+              line-height: 32px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .categore {
+    margin-bottom: 160px;
+    .categore-style {
+      .categore-text {
+        color: #1c3554;
+        font-variant-numeric: lining-nums proportional-nums;
+        font-family: Rubik;
+        margin-bottom: 56px;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 63.984px;
+      }
+      .categore-cards {
+        margin-bottom: 160px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 16px;
+        .categore-card {
+          width: 286px;
+          height: 350px;
+          flex-shrink: 0;
+          border-radius: 8px;
+          opacity: 0.5;
+          background: #000;
+          .categore-p {
+            color: #fff;
+            margin-top: 278px;
+            text-align: center;
+            font-family: Rubik;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 32px;
+          }
+        }
+      }
+      .curs-info {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        .info-card {
+          text-align: center;
+          img {
+            margin-bottom: 16px;
+          }
+          .info-text {
+            color: #1c3554;
+            font-variant-numeric: lining-nums proportional-nums;
+            font-family: Rubik;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 48px;
+            text-transform: capitalize;
+          }
+          .info-par {
+            color: #1c3554;
+            font-variant-numeric: lining-nums proportional-nums;
+            font-family: Rubik;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 32px;
+          }
+        }
+      }
+    }
+    .accent {
+      display: flex;
+      align-items: end;
+      justify-content: end;
+      text-align: end;
+    }
+  }
+  .become {
+    margin-bottom: 160px;
+    .become-style {
+      display: flex;
+      align-items: center;
+      gap: 56px;
+      .become-bg {
+        width: 608px;
+        height: 657px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        background: #ccc;
+      }
+      .become-content {
+        .become-text {
+          color: #1c3554;
+          font-variant-numeric: lining-nums proportional-nums;
+          font-family: Rubik;
+          font-size: 48px;
+          font-weight: 700;
+          line-height: 63.984px;
+          margin-bottom: 32px;
+        }
+        .become-par {
+          max-width: 545px;
+          color: #808080;
+          font-family: Montserrat;
+          margin-bottom: 24px;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 27px;
+        }
+      }
+    }
+  }
+  .comment {
+    padding: 64px 0;
+    margin-bottom: 160px;
+    .comment-style {
+      display: flex;
+      align-items: center;
+      gap: 48px;
+      img {
+        width: 338px;
+        height: 377px;
+      }
+      .comment-content {
+        .comment-text {
+          color: #1c3554;
+          width: 672px;
+          font-family: Rubik;
+          font-size: 32px;
+          margin-bottom: 32px;
+          font-weight: 400;
+          line-height: 48px;
+        }
+        .comment-name {
+          color: #1c3554;
+          font-family: Rubik;
+          font-size: 24px;
+          font-weight: 500;
+          line-height: 32px;
+          margin-bottom: 8px;
+        }
+        .comment-par {
+          color: #808080;
+          font-family: "Montserrat SemiBold";
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+  .company {
+    margin-bottom: 160px;
+    .company-style {
+      .company-text {
+        color: #1c3554;
+        text-align: center;
+        margin-bottom: 56px;
+        font-variant-numeric: lining-nums proportional-nums;
+        font-family: Rubik;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 63.984px;
+      }
+      .company-cards {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        img {
+          margin-bottom: 32px;
+        }
+      }
+    }
+  }
+  .blog {
+    margin-bottom: 160px;
+    .blog-style {
+      .blog-text {
+        color: #1c3554;
+        font-variant-numeric: lining-nums proportional-nums;
+        margin-bottom: 56px;
+        font-family: Rubik;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 63.984px;
+      }
+      .blog-cards {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 16px;
+        .blog-card {
+          width: 380px;
+          height: 518px;
+          padding: 16px;
+          flex-shrink: 0;
+          border-radius: 8px;
+          background: #fff;
+          transition: 0.5s;
+          &:hover {
+            filter: drop-shadow(40px 40px 57px rgba(0, 0, 0, 0.1));
+          }
+          .box-blog {
+            max-width: 368px;
+            height: 240px;
+            flex-shrink: 0;
+            border-radius: 8px;
+            background: #ccc;
+            margin-bottom: 16px;
+          }
+          .calendars {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 16px;
+            .calendar {
+              color: #808080;
+              font-family: Montserrat;
+              font-size: 14px;
+              font-weight: 400;
+              line-height: 24px;
+            }
+          }
+          .blog-p {
+            color: #1c3554;
+            font-variant-numeric: lining-nums proportional-nums;
+            font-family: Rubik;
+            margin-bottom: 16px;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 32px;
+          }
+          .blog-p2 {
+            color: #808080;
+            font-family: Montserrat;
+            margin-bottom: 24px;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 27px;
+          }
+          .blog-p3 {
+            color: #f72585;
+            font-family: "Montserrat SemiBold";
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 32px;
+          }
+        }
+      }
+    }
+  }
+  #backtop {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 900;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 4px 4px 12px 2px rgba(0, 0, 0, 0.2);
+    color: #333;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: fixed;
+    right: 20px;
+    bottom: -50px;
+    cursor: pointer;
+    z-index: 99;
+    transition: 0.6s;
+  }
+}
+
+@media (max-width: 1150px) {
+  .home-page {
+    .become {
+      .become-style {
+        flex-wrap: wrap;
+      }
+    }
+    .categore {
+      .curs-info {
+        flex-direction: column !important;
+      }
+    }
+    .comment {
+      .comment-style {
+        flex-wrap: wrap;
+      }
+    }
+  }
+}
+
+@media (max-width: 720px) {
+  .home-page {
+    .course {
+      .course-text {
+        font-size: 30px;
+      }
+    }
+    .categore {
+      .categore-text {
+        font-size: 30px;
+      }
+    }
+    .become {
+      .become-style {
+        .become-bg {
+          width: 400px;
+          height: 450px;
+        }
+        .become-content {
+          .become-text {
+            font-size: 30px;
+          }
+        }
+      }
+    }
+    .comment {
+      .comment-style {
+        svg {
+          display: none;
+        }
+        .comment-text {
+          font-size: 20px !important;
+          max-width: 300px;
+        }
+      }
+    }
+    .company {
+      .company-style {
+        .company-text {
+          font-size: 40px;
+        }
+      }
+    }
+    .blog {
+      .blog-style {
+        .blog-text {
+          font-size: 40px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 520px) {
+  .home-page {
+    .accent {
+      display: none !important;
+    }
+    .become {
+      .become-style {
+        .become-bg {
+          width: 300px;
+          height: 350px;
+        }
+        .become-content {
+          .become-text {
+            font-size: 30px;
+          }
+          .become-par {
+            max-width: 300px;
+          }
+        }
+      }
+    }
+    .blog {
+      .blog-style {
+        .blog-card {
+          width: 350px;
+        }
+      }
+    }
+  }
+}

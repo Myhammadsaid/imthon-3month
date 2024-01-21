@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Education | Courses</title>
+    <link rel="stylesheet" href="../scss/style.css" />
+  </head>
+  <body class="courses-page">
+    <header id="navbar">
+      <div class="container">
+        <nav class="nav">
+          <a href="../index.html" class="logo">
+            <img src="../images/logo.svg" alt="Logo" />
+          </a>
+          <div class="input-search">
+            <input type="text" name="text" placeholder="Search bar" />
+            <img class="header-img" src="../images/search.svg" alt="search" />
+          </div>
+          <div id="navbar-responsive" class="nav-links">
+            <a href="../pages/courses.html" class="nav-link">Courses</a>
+            <a href="../pages/details.html" class="nav-link">Detail Courses</a>
+            <a href="../pages/blog.html" class="nav-link">Blog</a>
+          </div>
+          <a href="../pages/account.html">
+            <button class="header-btn">Login</button>
+          </a>
+          <button class="darck-mode" id="light-dark">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 11.807A9.002 9.002 0 0 1 
+                     10.049 2a9.942 9.942 0 0 0-5.12 2.735c-3.905 3.905-3.905 
+                     10.237 0 14.142 3.906 3.906 10.237 3.905 14.143 0a9.946 
+                     9.946 0 0 0 2.735-5.119A9.003 9.003 0 0 1 12 11.807z"
+              ></path>
+            </svg>
+          </button>
+          <div class="nav-items" id="navbar-responsive"></div>
+          <button class="menu-btn" id="menu-btn">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero-style">
+            <div class="hero-title">
+              <p class="hero-home">Home</p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+              >
+                <path
+                  d="M4.86206 3.13798L9.72406 7.99998L4.86206 12.862L5.80473 13.8046L11.6094 7.99998L5.80473 2.19531L4.86206 3.13798Z"
+                  fill="#1C3554"
+                />
+              </svg>
+              <p class="hero-curses">Programming Courses</p>
+            </div>
+            <div class="hero-content">
+              <p class="hero-text">Programming Courses</p>
+              <p class="hero-par">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                aliquam, purus sit amet luctus venenatis, lectus magna fringilla
+                urna, porttitor rhoncus
+              </p>
+            </div>
+            <p class="hero-text2">Most Popular Development Courses</p>
+            <div class="curs-cards">
+              <div class="curs-card">
+                <div class="curs-title">
+                  <div class="box-bg"></div>
+                  <button class="curs-btn">UI/UX Design</button>
+                </div>
+                <p class="card-p">
+                  Interpersonal skills - work better with others!
+                </p>
+                <p class="card-p2">Tanah Air Team</p>
+                <div class="stars">
+                  <img src="../images/star.svg" alt="star" />
+                  <p class="card-p3">(2078)</p>
+                </div>
+                <div class="prices">
+                  <s>$640</s>
+                  <p class="price">$384</p>
+                </div>
+              </div>
+              <div class="curs-card">
+                <div class="curs-title">
+                  <div class="box-bg"></div>
+                  <button class="curs-btn">UI/UX Design</button>
+                </div>
+                <p class="card-p">How to become an Expert Web Developer</p>
+                <p class="card-p2">Tanah Air Team</p>
+                <div class="stars">
+                  <img src="../images/star.svg" alt="star" />
+                  <p class="card-p3">(2078)</p>
+                </div>
+                <div class="prices">
+                  <s>$640</s>
+                  <p class="price">$735</p>
+                </div>
+              </div>
+              <div class="curs-card">
+                <div class="curs-title">
+                  <div class="box-bg"></div>
+                  <button class="curs-btn">UI/UX Design</button>
+                </div>
+                <p class="card-p">User Experience Design Essentials</p>
+                <p class="card-p2">Tanah Air Team</p>
+                <div class="stars">
+                  <img src="../images/star.svg" alt="star" />
+                  <p class="card-p3">(2078)</p>
+                </div>
+                <div class="prices">
+                  <s>$640</s>
+                  <p class="price">$826</p>
+                </div>
+              </div>
+              <div class="curs-card">
+                <div class="curs-title">
+                  <div class="box-bg"></div>
+                  <button class="curs-btn">UI/UX Design</button>
+                </div>
+                <p class="card-p">Creating 3D Modelling in Blender</p>
+                <p class="card-p2">Tanah Air Team</p>
+                <div class="stars">
+                  <img src="../images/star.svg" alt="star" />
+                  <p class="card-p3">(2078)</p>
+                </div>
+                <div class="prices">
+                  <s>$640</s>
+                  <p class="price">$710</p>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+      <section class="programing">
+        <div class="container">
+          <div class="programing-style">
+            <div class="programing-title">
+              <p class="programing-text">Programming Topics</p>
+              <button class="programing-btn">See All</button>
+            </div>
+            <div class="programing-cards">
+              <div class="programing-card">
+                <p class="programing-p">Python</p>
+              </div>
+              <div class="programing-card">
+                <p class="programing-p">Javascript</p>
+              </div>
+              <div class="programing-card">
+                <p class="programing-p">CSS</p>
+              </div>
+              <div class="programing-card">
+                <p class="programing-p">C#</p>
+              </div>
+              <div class="programing-card">
+                <p class="programing-p">Web Development</p>
+              </div>
+              <div class="programing-card">
+                <p class="programing-p">Data Science</p>
+              </div>
+              <div class="programing-card">
+                <p class="programing-p">Java</p>
+              </div>
+              <div class="programing-card">
+                <p class="programing-p">SQL</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="cours">
+        <div class="container">
+          <div class="cours-style">
+            <div class="cours-title">
+              <p class="cours-text">All Courses</p>
+              <div class="cours-btns">
+                <button class="cours-btn">
+                  Filter
+                  <img src="../images/dashboard.svg" alt="dashboard">
+                </button>
+                <button class="cours-btn2">
+                  Most Popular
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M7.29297 4.70697L14.586 12L7.29297 19.293L8.70697 20.707L17.414 12L8.70697 3.29297L7.29297 4.70697Z" fill="white"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="curs-main">
+            <div class="curs-aside">
+              <div class="aside-title">
+                <p class="aside-text">Ratings</p>
+                <img src="../images/Chevron Down.svg" alt="arrow">
+              </div>
+              <div class="tables">
+                <div class="aside-table">
+                <input type="checkbox">
+                <img src="../images/star.svg" alt="star">
+                <p class="aside-par">5</p>
+                <p class="aside-par2">(1242)</p>
+              </div>
+              <div class="aside-table">
+                <input type="checkbox">
+                <img src="../images/star4.svg" alt="star">
+                <p class="aside-par">4+</p>
+                <p class="aside-par2">(2145)</p>
+              </div>
+              <div class="aside-table">
+                <input type="checkbox">
+                <img src="../images/star3.svg" alt="star">
+                <p class="aside-par">3+</p>
+                <p class="aside-par2">(224)</p>
+              </div>
+              <div class="aside-table">
+                <input type="checkbox">
+                <img src="../images/star2.svg" alt="star">
+                <p class="aside-par">2+</p>
+                <p class="aside-par2">(2049)</p>
+              </div>
+              <div class="aside-table">
+                <input type="checkbox">
+                <img src="../images/star1.svg" alt="star">
+                <p class="aside-par">1+</p>
+                <p class="aside-par2">(2049)</p>
+              </div>
+            </div>
+              <hr style="background: #ccc;">
+              <div class="aside-title">
+                <p class="aside-text">Durations</p>
+                <img src="../images/Chevron Down.svg" alt="arrow">
+              </div>
+              <div class="tables">
+                <div class="aside-table">
+                <input type="checkbox">
+                <p class="aside-par3">1-3 Hours</p>
+                <p class="aside-par2">(1242)</p>
+              </div>
+              <div class="aside-table">
+                <input type="checkbox">
+                <p class="aside-par3">3-6 Hours</p>
+                <p class="aside-par2">(2145)</p>
+              </div>
+              <div class="aside-table">
+                <input type="checkbox">
+                <p class="aside-par3">6-12 Hours</p>
+                <p class="aside-par2">(224)</p>
+              </div>
+              <div class="aside-table">
+                <input type="checkbox">
+               <p class="aside-par3">13+ Hours</p>
+                <p class="aside-par2">(2049)</p>
+              </div>
+              <br>
+            </div>
+              <hr style="background: #ccc;">
+              <div class="aside-title">
+                <p class="aside-text">Level</p>
+                <img src="../images/Chevron Down.svg" alt="arrow">
+              </div>
+              <div class="tables">
+                <div class="aside-table">
+                <input type="checkbox">
+                <p class="aside-par3">Beginner</p>
+                <p class="aside-par2">(2049)</p>
+              </div>
+              <div class="aside-table">
+                <input type="checkbox">
+                <p class="aside-par3">Intermediate</p>
+                <p class="aside-par2">(2049)</p>
+              </div>
+              <div class="aside-table">
+                <input type="checkbox">
+                <p class="aside-par3">Expert</p>
+                <p class="aside-par2">(2049)</p>
+              </div>
+              <br>
+            </div>
+              <hr style="background: #ccc;">
+              <div class="aside-title">
+                <p class="aside-text">Language</p>
+                <img src="../images/Chevron Down.svg" alt="arrow">
+              </div>
+              <div class="tables">
+                <div class="aside-table">
+                <input type="checkbox">
+                <p class="aside-par3">English</p>
+                <p class="aside-par2">(2049)</p>
+              </div>
+              <div class="aside-table">
+                <input type="checkbox">
+                <p class="aside-par3">Espanol</p>
+                <p class="aside-par2">(2049)</p>
+              </div>
+              <div class="aside-table">
+                <input type="checkbox">
+                <p class="aside-par3">Melayu</p>
+                <p class="aside-par2">(2049)</p>
+              </div>
+              <div class="aside-table">
+                <input type="checkbox">
+                <p class="aside-par3">Bahasa Indonesia</p>
+                <p class="aside-par2">(2049)</p>
+              </div>
+              <div class="aside-table-title">
+                <p class="aside-show">Show more</p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M8.99998 13.0605L2.46973 6.53026L3.53023 5.46976L8.99998 10.9395L14.4697 5.46976L15.5302 6.53026L8.99998 13.0605Z" fill="#1C3554"/>
+                </svg>
+              </div>
+              <br>
+            </div>
+              <hr style="background: #ccc;">
+              <div class="aside-title">
+                <p class="aside-text">Price</p>
+                <img src="../images/Chevron Down3.svg" alt="arrow">
+              </div>
+              <br>
+              <hr style="background: #ccc;">
+              <div class="aside-title">
+                <p class="aside-text">Features</p>
+                <img src="../images/Chevron Down3.svg" alt="arrow">
+              </div>
+            </div>
+            <div class="box"></div>
+            <div class="curs-cards">
+              <div class="curs-card">
+                <div class="curs-title">
+                  <div class="box-bg"></div>
+                  <button class="curs-btn">UI/UX Design</button>
+                </div>
+                <p class="card-p">How to become an Expert Web Developer</p>
+                <p class="card-p2">Tanah Air Team</p>
+                <div class="stars">
+                  <img src="../images/star.svg" alt="star" />
+                  <p class="card-p3">(2078)</p>
+                </div>
+                <div class="prices">
+                  <s>$640</s>
+                  <p class="price">$735</p>
+                </div>
+              </div>
+              <div class="curs-card">
+                <div class="curs-title">
+                  <div class="box-bg"></div>
+                  <button class="curs-btn">UI/UX Design</button>
+                </div>
+                <p class="card-p">How to become an Expert Web Developer</p>
+                <p class="card-p2">Tanah Air Team</p>
+                <div class="stars">
+                  <img src="../images/star.svg" alt="star" />
+                  <p class="card-p3">(2078)</p>
+                </div>
+                <div class="prices">
+                  <s>$640</s>
+                  <p class="price">$735</p>
+                </div>
+              </div>
+              <div class="curs-card">
+                <div class="curs-title">
+                  <div class="box-bg"></div>
+                  <button class="curs-btn">UI/UX Design</button>
+                </div>
+                <p class="card-p">How to become an Expert Web Developer</p>
+                <p class="card-p2">Tanah Air Team</p>
+                <div class="stars">
+                  <img src="../images/star.svg" alt="star" />
+                  <p class="card-p3">(2078)</p>
+                </div>
+                <div class="prices">
+                  <s>$640</s>
+                  <p class="price">$735</p>
+                </div>
+              </div>
+              <div class="curs-card">
+                <div class="curs-title">
+                  <div class="box-bg"></div>
+                  <button class="curs-btn">UI/UX Design</button>
+                </div>
+                <p class="card-p">How to become an Expert Web Developer</p>
+                <p class="card-p2">Tanah Air Team</p>
+                <div class="stars">
+                  <img src="../images/star.svg" alt="star" />
+                  <p class="card-p3">(2078)</p>
+                </div>
+                <div class="prices">
+                  <s>$640</s>
+                  <p class="price">$735</p>
+                </div>
+              </div>
+              <div class="curs-card">
+                <div class="curs-title">
+                  <div class="box-bg"></div>
+                  <button class="curs-btn">UI/UX Design</button>
+                </div>
+                <p class="card-p">How to become an Expert Web Developer</p>
+                <p class="card-p2">Tanah Air Team</p>
+                <div class="stars">
+                  <img src="../images/star.svg" alt="star" />
+                  <p class="card-p3">(2078)</p>
+                </div>
+                <div class="prices">
+                  <s>$640</s>
+                  <p class="price">$735</p>
+                </div>
+              </div>
+              <div class="curs-card">
+                <div class="curs-title">
+                  <div class="box-bg"></div>
+                  <button class="curs-btn">UI/UX Design</button>
+                </div>
+                <p class="card-p">How to become an Expert Web Developer</p>
+                <p class="card-p2">Tanah Air Team</p>
+                <div class="stars">
+                  <img src="../images/star.svg" alt="star" />
+                  <p class="card-p3">(2078)</p>
+                </div>
+                <div class="prices">
+                  <s>$640</s>
+                  <p class="price">$735</p>
+                </div>
+              </div>
+              <div class="curs-card">
+                <div class="curs-title">
+                  <div class="box-bg"></div>
+                  <button class="curs-btn">UI/UX Design</button>
+                </div>
+                <p class="card-p">How to become an Expert Web Developer</p>
+                <p class="card-p2">Tanah Air Team</p>
+                <div class="stars">
+                  <img src="../images/star.svg" alt="star" />
+                  <p class="card-p3">(2078)</p>
+                </div>
+                <div class="prices">
+                  <s>$640</s>
+                  <p class="price">$735</p>
+                </div>
+              </div>
+              <div class="curs-card">
+                <div class="curs-title">
+                  <div class="box-bg"></div>
+                  <button class="curs-btn">UI/UX Design</button>
+                </div>
+                <p class="card-p">How to become an Expert Web Developer</p>
+                <p class="card-p2">Tanah Air Team</p>
+                <div class="stars">
+                  <img src="../images/star.svg" alt="star" />
+                  <p class="card-p3">(2078)</p>
+                </div>
+                <div class="prices">
+                  <s>$640</s>
+                  <p class="price">$735</p>
+                </div>
+              </div>
+              <div class="curs-card">
+                <div class="curs-title">
+                  <div class="box-bg"></div>
+                  <button class="curs-btn">UI/UX Design</button>
+                </div>
+                <p class="card-p">How to become an Expert Web Developer</p>
+                <p class="card-p2">Tanah Air Team</p>
+                <div class="stars">
+                  <img src="../images/star.svg" alt="star" />
+                  <p class="card-p3">(2078)</p>
+                </div>
+                <div class="prices">
+                  <s>$640</s>
+                  <p class="price">$735</p>
+                </div>
+              </div>
+                <div class="curs-card">
+                <div class="curs-title">
+                  <div class="box-bg"></div>
+                  <button class="curs-btn">UI/UX Design</button>
+                </div>
+                <p class="card-p">How to become an Expert Web Developer</p>
+                <p class="card-p2">Tanah Air Team</p>
+                <div class="stars">
+                  <img src="../images/star.svg" alt="star" />
+                  <p class="card-p3">(2078)</p>
+                </div>
+                <div class="prices">
+                  <s>$640</s>
+                  <p class="price">$735</p>
+                </div>
+              </div>
+              <div class="curs-card">
+                <div class="curs-title">
+                  <div class="box-bg"></div>
+                  <button class="curs-btn">UI/UX Design</button>
+                </div>
+                <p class="card-p">How to become an Expert Web Developer</p>
+                <p class="card-p2">Tanah Air Team</p>
+                <div class="stars">
+                  <img src="../images/star.svg" alt="star" />
+                  <p class="card-p3">(2078)</p>
+                </div>
+                <div class="prices">
+                  <s>$640</s>
+                  <p class="price">$735</p>
+                </div>
+              </div>
+              <div class="curs-card">
+                <div class="curs-title">
+                  <div class="box-bg"></div>
+                  <button class="curs-btn">UI/UX Design</button>
+                </div>
+                <p class="card-p">How to become an Expert Web Developer</p>
+                <p class="card-p2">Tanah Air Team</p>
+                <div class="stars">
+                  <img src="../images/star.svg" alt="star" />
+                  <p class="card-p3">(2078)</p>
+                </div>
+                <div class="prices">
+                  <s>$640</s>
+                  <p class="price">$735</p>
+                </div>
+              </div>  
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-style">
+          <div class="footer-content">
+            <img src="../images/footer-logo.svg" alt="logo" />
+            <p class="footer-p1">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
+              tristique placerat eleifend aliquam pellentesque facilisis
+              ultrices. Imperdiet mus urna egestas at tellus.
+            </p>
+          </div>
+          <div class="footer-content">
+            <p class="footer-p">About</p>
+            <p class="footer-p2">About us</p>
+            <p class="footer-p2">Courses</p>
+            <p class="footer-p2">Mentor</p>
+            <p class="footer-p2">Contact Us</p>
+          </div>
+          <div class="footer-content">
+            <p class="footer-p">Support</p>
+            <p class="footer-p2">Careers</p>
+            <p class="footer-p2">Help & Support</p>
+            <p class="footer-p2">Blog</p>
+          </div>
+          <div class="footer-content">
+            <p class="footer-p">Company</p>
+            <p class="footer-p2">Privacy Policy</p>
+            <p class="footer-p2">Terms of Service</p>
+            <p class="footer-p2">Code of Conduct</p>
+          </div>
+        </div>
+        <div class="footer-footer">
+          <div class="footer-contents">
+            <p class="footer-p3">Privacy Policy</p>
+            <p class="footer-p3">Terms and Condition</p>
+          </div>
+          <p class="footer-p4">@2020 TanahAir Studio. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
