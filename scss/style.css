@@ -535,7 +535,7 @@ header .nav .nav-links .nav-link {
   }
   header .nav {
     justify-content: space-between;
-    gap: 4px;
+    gap: 4px !important;
   }
   header .nav .input-search {
     display: none;
@@ -779,6 +779,7 @@ footer .footer-footer .footer-contents .footer-p3 {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  justify-content: center;
   margin-bottom: 56px;
   gap: 16px;
 }
@@ -872,6 +873,7 @@ footer .footer-footer .footer-contents .footer-p3 {
   margin-bottom: 160px;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 16px;
 }
@@ -1034,6 +1036,7 @@ footer .footer-footer .footer-contents .footer-p3 {
 .home-page .blog .blog-style .blog-cards {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 16px;
 }
@@ -1246,6 +1249,7 @@ footer .footer-footer .footer-contents .footer-p3 {
 .courses-page .hero .hero-style .curs-cards {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 56px;
   gap: 16px;
@@ -1342,6 +1346,7 @@ footer .footer-footer .footer-contents .footer-p3 {
   margin-bottom: 160px;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 16px;
 }
@@ -1458,6 +1463,7 @@ footer .footer-footer .footer-contents .footer-p3 {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  justify-content: center;
   margin-bottom: 56px;
   gap: 16px;
 }
@@ -1974,6 +1980,7 @@ footer .footer-footer .footer-contents .footer-p3 {
 .details-page .mentor .mentor-style .mentor-box-contents {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 37px;
 }
 .details-page .mentor .mentor-style .mentor-box-contents .mentor-img {
@@ -2061,6 +2068,7 @@ footer .footer-footer .footer-contents .footer-p3 {
 .details-page .feedback .feedback-style .feedback-contents {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 24px;
 }
 .details-page .feedback .feedback-style .feedback-contents .feedback-content .feedback-par1 {
@@ -2170,6 +2178,7 @@ footer .footer-footer .footer-contents .footer-p3 {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  justify-content: center;
   margin-bottom: 56px;
   gap: 16px;
 }
@@ -2462,6 +2471,7 @@ footer .footer-footer .footer-contents .footer-p3 {
 .blog-page .blog .blog-style .blog-content {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 64px;
   flex-wrap: wrap;
   margin-bottom: 56px;
@@ -2698,6 +2708,7 @@ footer .footer-footer .footer-contents .footer-p3 {
 .account-page .account .account-style .curs-cards {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 56px;
   gap: 16px;

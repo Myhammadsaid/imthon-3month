@@ -76,7 +76,7 @@ header {
   header {
     .nav {
       justify-content: space-between;
-      gap: 4px;
+      gap: 4px !important;
       .input-search {
         display: none;
       }
