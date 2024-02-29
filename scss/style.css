@@ -935,6 +935,7 @@ footer .footer-footer .footer-contents .footer-p3 {
 .home-page .become .become-style {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 56px;
 }
 .home-page .become .become-style .become-bg {
@@ -969,6 +970,7 @@ footer .footer-footer .footer-contents .footer-p3 {
 .home-page .comment .comment-style {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 48px;
 }
 .home-page .comment .comment-style img {
@@ -2882,7 +2884,7 @@ footer .footer-footer .footer-contents .footer-p3 {
   border: 1px solid white;
 }
 
-.dark .cours-btn2 {
+.dark .course-btns .cours-btn2 {
   color: black !important;
 }
 
@@ -2898,4 +2900,42 @@ footer .footer-footer .footer-contents .footer-p3 {
 
 .dark .darck-mode {
   fill: #fff !important;
+}
+
+.dark .cours-btn1:hover {
+  color: black !important;
+}
+
+.dark .cours-btn2:hover {
+  color: white !important;
+}
+
+.dark .curs-btn:hover {
+  color: #4586d6 !important;
+}
+
+.dark .cours-btn {
+  color: black !important;
+  background: #fff !important;
+}
+
+.dark .cours-btns .cours-btn2:hover {
+  color: black !important;
+  fill: black !important;
+}
+
+.dark .hero-button2 {
+  color: #f72585 !important;
+}
+
+.dark .hero-buttons .hero-button2:hover {
+  color: white !important;
+}
+
+.dark .hero-buttons .hero-button:hover {
+  color: #f72585 !important;
+}
+
+.dark .hero-inputs .hero-btn:hover {
+  color: #f72585 !important;
 }/*# sourceMappingURL=style.css.map */
